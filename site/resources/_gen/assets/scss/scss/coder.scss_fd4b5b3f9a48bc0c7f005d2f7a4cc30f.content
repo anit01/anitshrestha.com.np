@@ -217,7 +217,7 @@ img {
 .avatar img {
   width: 20rem;
   height: auto;
-  border-radius: 50%; }
+  border-radius: none; }
   @media only screen and (max-width: 768px) {
     .avatar img {
       width: 10rem; } }
@@ -399,5 +399,8 @@ img {
   margin-bottom: 1.0rem; }
   .footer a {
     color: #1565c0; }
+
+.footer .container {
+  font-size: smaller; }
 
 /*# sourceMappingURL=coder.css.map */

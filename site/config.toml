@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "johndoe"
+title = "Anit Shrestha Manandhar | Software Engineer"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -14,19 +14,19 @@ pygmentscodefencesguesssyntax = true
 disqusShortname = "yourdiscussshortname"
 
 [params]
-    author = "John Doe"
-    info = "Full Stack DevOps and Magician"
-    description = "John Doe's personal website"
-    keywords = "blog,developer,personal"
-    avatarurl = "images/avatar.jpg"
+    author = "Hi I'm Anit."
+    info = "I help startups in web/mobile application development."
+    description = "Personal website of Anit Shrestha Manandhar | Software Engineer | Software Developer | Programmers"
+    keywords = "personal website, software engineer, software developer, programmer"
+    avatarurl = ""
 
-    favicon_32 = "/img/favicon-32x32.png"
-    favicon_16 = "/img/favicon-16x16.png"
+    favicon_32 = "/images/favicon.ico"
+    favicon_16 = "/images/favicon.ico"
 
-    footercontent = "Enter a text here."
+    footercontent = "Websites for everyone."
 
     hidecredits = false
-    hidecopyright = false
+    hidecopyright = true
 
     rtl = false
 
@@ -35,27 +35,37 @@ disqusShortname = "yourdiscussshortname"
 
 # Social links
 [[params.social]]
-    name = "Github"
-    icon = "fab fa-github fa-2x"
+    name = "Linkedin"
+    icon = "fab fa-linkedin fa-2x"
     weight = 1
-    url = "https://github.com/johndoe/"
+    url = "https://www.linkedin.com/in/anit"
 [[params.social]]
-    name = "Gitlab"
-    icon = "fab fa-gitlab fa-2x"
+    name = "Facebook"
+    icon = "fab fa-facebook fa-2x"
     weight = 2
-    url = "https://gitlab.com/johndoe/"
+    url = "https://www.facebook.com/anit01"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter fa-2x"
     weight = 3
-    url = "https://twitter.com/johndoe/"
-
-# Menu links
-[[menu.main]]
-    name = "Blog"
-    weight = 1
-    url  = "/posts/"
-[[menu.main]]
-    name = "About"
-    weight = 2
-    url = "/about/"
+    url = "https://twitter.com/allegorythm"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-stack-overflow fa-2x"
+    weight = 4
+    url = "https://stackoverflow.com/story/anit"
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 5
+    url = "https://github.com/anit01"
+[[params.social]]
+    name = "Youtube"
+    icon = "fab fa-youtube fa-2x"
+    weight = 6
+    url = "https://www.youtube.com/c/AnitShrestha"
+[[params.social]]
+    name = "Goodreads"
+    icon = "fab fa-readme fa-2x"
+    weight = 7
+    url = "https://www.goodreads.com/anit01"

@@ -1,3 +1,8 @@
+# A basic redirect rule
+[[redirects]]
+  from = "/*"
+  to = "https://anit.cc"
+
 baseurl = "/"
 title = "Anit Shrestha Manandhar | Software Engineer"
 theme = "hugo-coder"

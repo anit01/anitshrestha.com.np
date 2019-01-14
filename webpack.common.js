@@ -48,6 +48,6 @@ module.exports = {
       prettyPrint: true
     }),
 
-    
+    new CopyWebpackPlugin([{ from: '_redirects', to: path.join(process.cwd(), "dist") }])
   ]
 };
